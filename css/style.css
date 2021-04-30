@@ -76,11 +76,56 @@ h2, h3{
 
 .middle-container{
     background-color: whitesmoke;
+    margin: 30px;
     
 
 }
 .bottom-container{
-    background-color:palegoldenrod ;
+    background-color:#66BFBF ;
+    padding: 2em;
+    padding-bottom: 1em;
+    color: #EAF6F6;
     
 }
 
+.footer-link{
+    color:#11999E;
+    margin: 10px;
+}
+.footer-link:hover{
+    color:black;
+}
+.submit {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #68ebf1, rgba(30, 200, 208, 0));
+    background-image: -moz-linear-gradient(top, #50F5FD, rgba(30, 200, 208, 0));
+    background-image: -ms-linear-gradient(top, #50F5FD, rgba(30, 200, 208, 0));
+    background-image: -o-linear-gradient(top, #50F5FD, rgba(30, 200, 208, 0));
+    background-image: -webkit-gradient(to bottom, #50F5FD, rgba(30, 200, 208, 0));
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #EAF6F6;
+    font-family: Courier New;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .submit:hover {
+     background-color: blue;
+ }
+
+ hr{
+     height: 0;
+     border-style: none;
+     border-top: dotted;
+     border-width: 5px;
+     border-color: black;
+     width: 10%;
+     
+ }
