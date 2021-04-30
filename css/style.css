@@ -1,0 +1,74 @@
+
+body{
+    background-color: whitesmoke;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+h1{
+    font-family: 'Kalam',Arial, cursive;
+    color:  #66BFBF;
+    margin:0 auto 0 ;
+    font-size: 5.625rem ;
+
+    
+}   
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3,a{color:#11999E;}
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+.profile-picture{
+    height: 350px;
+    width: 350px;
+    border:solid bisque;
+    background: bisque;
+    border-radius: 100%;
+}
+
+.skill-image{
+    height: 200px;
+}
+
+.top{
+    border-width: 2px;
+    padding: 20px;
+    background:#f5f7b2;
+    position: relative;
+    padding-top:100px; 
+}
+.cloud{
+    color: white;;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom:200px;
+    left: 200px;
+}
+
+
+
+
+.middle-container{
+    background-color: whitesmoke;
+    
+
+}
+.bottom-container{
+    background-color:palegoldenrod ;
+    
+}
+
