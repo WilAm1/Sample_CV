@@ -23,11 +23,30 @@ h2, h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
+
+hr{
+    height: 0;
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    margin:150px auto;
+    border-color: #66BFBF;
+    width: 5%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
 .profile-picture{
     height: 350px;
     width: 350px;
     border:solid bisque;
-    background: bisque;
+    background:#66BFBF;
     border-radius: 100%;
 }
 
@@ -44,7 +63,7 @@ h2, h3{
 .top{
     border-width: 2px;
     padding: 20px;
-    background:#f5f7b2;
+    background:#EAF6F6;
     position: relative;
     padding-top:100px; 
 }
@@ -76,7 +95,7 @@ h2, h3{
 
 .middle-container{
     background-color: whitesmoke;
-    margin: 30px;
+    margin: 100px 0;
     
 
 }
@@ -85,6 +104,7 @@ h2, h3{
     padding: 2em;
     padding-bottom: 1em;
     color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -93,7 +113,7 @@ h2, h3{
     margin: 10px;
 }
 .footer-link:hover{
-    color:black;
+    color:#EAF6F6;
 }
 .submit {
     background: #11999E;
@@ -106,7 +126,7 @@ h2, h3{
     -moz-border-radius: 20px;
     border-radius: 20px;
     color: #EAF6F6;
-    font-family: Courier New;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
     padding: 18px;
@@ -120,12 +140,7 @@ h2, h3{
      background-color: blue;
  }
 
- hr{
-     height: 0;
-     border-style: none;
-     border-top: dotted;
-     border-width: 5px;
-     border-color: black;
-     width: 10%;
-     
+ .copyright{
+    color:#EAF6F6;
+    font-size: .75rem;
  }
